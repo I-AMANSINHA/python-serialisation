@@ -12,7 +12,7 @@ def data_converter():
     user_object = {
         "name": user_name,
         "age": int(user_age) if user_age.isdigit() else user_age,
-        "app": "ConverterDemo",
+        "app": "Converter",
         "status": "active"
     }
     
