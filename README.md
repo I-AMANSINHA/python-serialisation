@@ -1,5 +1,5 @@
 <H1> Python Data Transformation: </H1> 
-Serialization & EncodingThis project demonstrates the essential workflow for preparing data for storage or transmission. It shows the step-by-step process of converting a Python object into a transportable format and back again.
+Serialization & Encoding :- This project demonstrates the essential workflow for preparing data for storage or transmission. It shows the step-by-step process of converting a Python object into a transportable format and back again.
 
 <H1> The script demonstrates two key concepts: </H1>
 <p> Serialization: </p>
@@ -18,3 +18,5 @@ Converting that string into a "safe" alphanumeric format (using the base64 libra
 <H2> Base64 → JSON: </H2> Decodes the alphanumeric string back into a readable JSON string.
 <H2> JSON → Object: </H2> Deserializes the string back into a live Python dictionary that you can interact with in your code.
 
+<h1> To test the script, simply run it using your terminal or command prompt: </h1>
+<p> python serialization.py </p>
