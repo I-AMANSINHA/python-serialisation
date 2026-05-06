@@ -19,13 +19,10 @@ def data_converter():
     print(f"\n[1] Original Python Object: {user_object}")
 
     # 2. SERIALIZATION (Object -> JSON String)
-    # This preserves the structure so other systems can read it.
     serialized_json = json.dumps(user_object)
     print(f"[2] Serialized (JSON): {serialized_json}")
 
     # 3. ENCODING (String -> Base64)
-    # This turns the JSON into a "safe" alphanumeric string.
-    # We have to turn the string into bytes (.encode()) first.
     encoded_base64 = base64.b64encode(serialized_json.encode('utf-8')).decode('utf-8')
     print(f"[3] Encoded (Base64): {encoded_base64}")
 
